@@ -6,11 +6,12 @@ Please contact (hyangl@umich.edu) if you have any questions or suggestions.
 
 ## Required dependencies
 * [ggplot2](https://www.rdocumentation.org/packages/ggplot2/versions/3.0.0)
-
+---
+## Examples
 
 ### 1. scatter plot
 
-<p align="center">
+<p align="left">
 <img src="https://github.com/Hongyang449/color_your_figure/blob/master/figure/scatter_plot.png" width="300">
 </p>
 
@@ -28,7 +29,7 @@ Please contact (hyangl@umich.edu) if you have any questions or suggestions.
 **code**
 [scatter_plot.r](https://github.com/Hongyang449/color_your_figure/scatter_plot.r)
 
-
+---
 ## Reference
 * [scientific journal color palettes](https://github.com/road2stat/ggsci)
 * [ggplot cheatsheets](https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf)
