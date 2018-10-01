@@ -27,7 +27,7 @@ Please contact (hyangl@umich.edu) if you have any questions or suggestions.
 | 30 | 0.2726435 | 0.34297157 | object 12 |
 
 **code**
-[scatter_plot.r](https://github.com/Hongyang449/color_your_figure/scatter_plot.r)
+[scatter_plot.r](https://github.com/Hongyang449/color_your_figure/blob/master/scatter_plot.r)
 
 ---
 ## Reference
