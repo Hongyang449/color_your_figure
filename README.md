@@ -12,7 +12,7 @@ Please contact (hyangl@umich.edu) if you have any questions or suggestions.
 ### 1. scatter plot
 
 <p align="left">
-<img src="https://github.com/Hongyang449/color_your_figure/blob/master/figure/scatter_plot.png" width="300">
+<img src="https://github.com/Hongyang449/color_your_figure/blob/master/figure/scatter_plot.png" width="500">
 </p>
 
 **data**
