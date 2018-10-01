@@ -5,17 +5,22 @@ Please contact (hyangl@umich.edu) if you have any questions or suggestions.
 ---
 
 ## Required dependencies
-* [ggplot2](https://www.rdocumentation.org/packages/ggplot2/versions/3.0.0)
+* [ggplot2](https://www.rdocumentation.org/packages/ggplot2/versions/3.0.0):
+```
+install.packages('ggplot2')
+```
 ---
 ## Examples
 
 ### 1. scatter plot
 
+**output**
+
 <p align="left">
 <img src="https://github.com/Hongyang449/color_your_figure/blob/master/figure/scatter_plot.png" width="500">
 </p>
 
-**data**
+**input data**
 
 |    |         x |          y |      name |
 | -- | --------- | ---------- | --------- | 
@@ -27,6 +32,7 @@ Please contact (hyangl@umich.edu) if you have any questions or suggestions.
 | 30 | 0.2726435 | 0.34297157 | object 12 |
 
 **code**
+
 [scatter_plot.r](https://github.com/Hongyang449/color_your_figure/blob/master/scatter_plot.r)
 
 ---
