@@ -63,11 +63,13 @@ p1=ggplot(dat, aes(x,y,color=name)) + # use column "name" to color
     labs(x='Your X Title',y='Your Y Title',title='Your Figure Title') + # customize titles
     annotate("text", x = 0.15, y = 0.7, label=paste0("median Y= ",format(median(dat[,"y"]),digits=2)),size=5) + # add annotations
     annotate("text", x = 0.7, y = 0.15, label=paste0("median X= ",format(median(dat[,"x"]),digits=2)),size=5)
-# have a look at p1
-p1   
+
+# if you want to have a look at p1, simple type:
+# p1   
 
 # save your plot (if your illustrator doesn't accept the pdf dots, add this "useDingbats=F")
-pdf(file="figure/scatter_plot.pdf",width=10,height=8) # customize the size of the pdf
+#pdf(file="figure/scatter_plot.pdf",width=10,height=8) # customize the width and height
+png(filename="figure/scatter_plot.png",width=10,height=8,units='in',res=300) # unit inch
 p1
 dev.off()
 

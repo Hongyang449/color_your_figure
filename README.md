@@ -11,10 +11,11 @@ Please contact (hyangl@umich.edu) if you have any questions or suggestions.
 ### 1. scatter plot
 
 <p align="center">
-<img src="https://github.com/Hongyang449/color_your_figure/blob/master/figure/scatter_plot.pdf" width="300">
+<img src="https://github.com/Hongyang449/color_your_figure/blob/master/figure/scatter_plot.png" width="300">
 </p>
 
 **data**
+
 |    |         x |          y |      name |
 | -- | --------- | ---------- | --------- | 
 | 1  | 0.3076133 | 0.68012495 | object 02 |
