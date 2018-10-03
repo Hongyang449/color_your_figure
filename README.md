@@ -36,8 +36,37 @@ install.packages('ggplot2')
 [scatter_plot.r](https://github.com/Hongyang449/color_your_figure/blob/master/scatter_plot.r)
 
 ---
+
+### 2. heatmap block
+
+**output**
+
+<p align="left">
+<img src="https://github.com/Hongyang449/color_your_figure/blob/master/figure/heatmap_block.png" width="500">
+</p>
+
+**input data**
+
+|     |  gene |  id |     value |
+| --- | ----- | --- | --------- | 
+| 1   | gene0 | id0 | 0.3663519 |
+| 2   | gene0 | id1 | 0.8200528 |
+| 3   | gene0 | id2 | 0.2844916 |
+| ... | ...   |     |    ...
+| 99  | gene9 | id8 | 1.0256540 |
+| 100 | gene9 | id9 | 0.4010756 |
+
+**code**
+
+[scatter_plot.r](https://github.com/Hongyang449/color_your_figure/blob/master/heatmap_block.r)
+
+---
+
 ## Reference
 * [scientific journal color palettes](https://github.com/road2stat/ggsci)
 * [ggplot cheatsheets](https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf)
 
 
+
+
+heatmap_block.r
