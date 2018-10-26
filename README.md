@@ -12,6 +12,34 @@ install.packages('ggplot2')
 ---
 ## Examples
 
+### 0. signal gif
+
+**output**
+
+<p align="left">
+<img src="https://github.com/Hongyang449/color_your_figure/blob/master/figure/trigonometry.gif" width="700">
+</p>
+
+**input data** (3500*4; 250 length * 14 channels = 3400)
+
+|      | x    | variable   | value     | channel |
+| ---- | ---- | ---------- | --------- | ------- | 
+| 1    | 0.2  | channel_01 | 0         | 1       |
+| 2    | 0.4  | channel_01 | 0         | 1       |
+| ...  | ...  | ...        | ...       | ...     | 
+| 250  | 50.0 | channel_01 | 0.0000000 | 1       |
+| 251  | 0.2  | channel_02 | 0.9239719 | 51      |
+| 252  | 0.4  | channel_02 | 1.0000000 | 51      |
+| ...  | ...  | ...        | ...       | ...     | 
+| 3499 | 49.8 | channel_14 | 0.9167349 | 651     | 
+| 3500 | 50.0 | channel_14 | 1.0000000 | 651     | 
+
+**code**
+
+[signal_gif.r](https://github.com/Hongyang449/color_your_figure/blob/master/signal_gif.r)
+
+---
+
 ### 1. scatter plot
 
 **output**
@@ -69,4 +97,3 @@ install.packages('ggplot2')
 
 
 
-heatmap_block.r
