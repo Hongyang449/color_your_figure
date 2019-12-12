@@ -117,6 +117,7 @@ install.packages('ggplot2')
 **code**
 
 [roc_curve.r](roc_curve.r)
+
 [prototype python code to calculate curves](calculate_roc_prc.py)
 
 ---
@@ -148,6 +149,35 @@ install.packages('ggplot2')
 **code**
 
 [violin_plot.r](violin_plot.r)
+
+---
+
+### 5. density histogram plot
+
+**output**
+
+<p align="left">
+<img src="figure/density_histogram_plot.png" width="800">
+</p>
+
+**input data**
+
+|     | value |  model  |
+| --- | ----- | ------- | 
+| 1   | 0.66  | Leopard |
+| 2   | 0.81  | Leopard |
+| 3   | 0.63  | Leopard |
+| ... | ...   | ...     |
+| 99  | 0.88  | Leopard |
+| 100 | 0.67  | Leopard |
+| 101 | 0.72  | Anchor  |
+| 102 | 0.59  | Anchor  |
+| ... | ...   | ...     |
+
+
+**code**
+
+[density_histogram_plot.r](density_histogram_plot.r)
 
 ---
 
