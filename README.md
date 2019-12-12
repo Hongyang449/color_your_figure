@@ -90,9 +90,40 @@ install.packages('ggplot2')
 
 ---
 
+### 3. roc curve
+
+**output**
+
+<p align="left">
+<img src="figure/roc_curve.png" width="500">
+</p>
+
+**input data**
+
+|     |     y |   x |     model |
+| --- | ----- | --- | --------- | 
+| 1   | 0.0046 | 0.002 | model1 |
+| 2   | 0.0375 | 0.020 | model1 |
+| 3   | 0.0458 | 0.030 | model1 |
+| ... | ...    | ...   | ...    |
+| 99  | 0.9862 | 0.994 | model1 |
+| 100 | 1.0000 | 0.999 | model1 |
+| 101 | 0.0054 | 0.009 | model2 |
+| 102 | 0.0064 | 0.046 | model2 |
+| 103 | 0.0197 | 0.047 | model2 |
+| ... | ...    | ...   | ...    |
+
+
+**code**
+
+[roc_curve.r](roc_curve.r)
+
+---
+
 ## Reference
 * [scientific journal color palettes](https://github.com/road2stat/ggsci)
 * [ggplot cheatsheets](https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf)
+
 
 
 
