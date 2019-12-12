@@ -100,8 +100,8 @@ install.packages('ggplot2')
 
 **input data**
 
-|     |     y |   x |     model |
-| --- | ----- | --- | --------- | 
+|     |      y |     x |  model |
+| --- | ------ | ----- | ------ | 
 | 1   | 0.0046 | 0.002 | model1 |
 | 2   | 0.0375 | 0.020 | model1 |
 | 3   | 0.0458 | 0.030 | model1 |
@@ -117,6 +117,37 @@ install.packages('ggplot2')
 **code**
 
 [roc_curve.r](roc_curve.r)
+[prototype python code to calculate curves](calculate_roc_prc.py)
+
+---
+
+### 4. violin plot
+
+**output**
+
+<p align="left">
+<img src="figure/violin_plot.png" width="500">
+</p>
+
+**input data**
+
+|     | value |  model |
+| --- | ----- | ------ | 
+| 1   | 0.73  | Linear |
+| 2   | 0.76  | Linear |
+| 3   | 0.79  | Linear |
+| ... | ...   | ...    |
+| 99  | 0.74  | Linear |
+| 100 | 0.79  | Linear |
+| 101 | 0.81  | Ridge  |
+| 102 | 0.82  | Ridge  |
+| 103 | 0.75  | Ridge  |
+| ... | ...   | ...    |
+
+
+**code**
+
+[violin_plot.r](violin_plot.r)
 
 ---
 
